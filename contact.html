@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/profile-svgrepo-com.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=DM+Serif+Display&family=Noto+Sans+Glagolitic&family=Open+Sans:wght@600&family=Poppins&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d40bb7855.js" crossorigin="anonymous"></script>
+    <title>Kamali</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEader Section -->
+
+    <header>
+        <nav class="nav-parent">
+            <div class="head-text">
+                <a href="#home"><span class="text">Port</span>Folio</a>
+            </div>
+        
+            <ul class="nav-bar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Resume">Resume</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            <button class="icon" type="button" onclick=demo()><i class="fa-solid fa-list"></i></button>
+        </nav>
+    </header>
+
+        <!-- Contact -->
+    <section class="contact-bar" id="Contact">
+            <div class="contact-head">
+                <h1>CONTACT</h1>
+                <p> <b>CONTACT ME</b></p>
+            </div>
+
+            <form id="form" name="contact" novalidate onsubmit="validateForm(event)">
+                <div class="input-area">
+                            <div class="input-1">
+                                <input type="text" id="fname" placeholder="Your Name">
+                            </div>
+                            
+                            <div class="input-2">
+                                <input type="text" id="email" placeholder="Your Email" >
+                            </div>
+    
+                           <div class="input-3">
+                               <input type="text" id="subject" placeholder="Subject">
+                          </div>
+    
+                        <div class="input-4">
+                            <textarea name="Message" id="message" placeholder="Send Message" required></textarea>
+                        </div>
+
+                        <div class="msg-btn"> 
+                                <button class="button" type="submit">Send Message</button>
+                        </div>
+                    </div>
+            </form>
+ 
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-icon">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i> 
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        
+
+        <div class="footer-last">
+            <p>&copy;  All Rights Reserved. Designed by <b><a href="#">Kamali</a></b></p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
